@@ -25,32 +25,10 @@ strong{
 }
 nav{
     border: 1px solid rgb(0, 255, 200);
-    display: flex;
+    display: flex
     padding: 10px 0px 0px 0px;
 }
-.logoagus{
-    width: 25px;
-}
-.imgflecha3{
-    width: 30px;
-}
 
-.parte2{
-    border: 1px solid yellow;
-    margin-left: 25px;
-}
-
-.parte3{
-    border: 1px solid green;
-    margin-left: 400px;
-}
-.descargacv{
-    font-size: 13px;
-    color: #f3f0ee;
-    border: 1px solid yellow;
-    margin-top: 5px;
-    margin-left: 55px;
-}
 
 .lineaheader{
     height: 0.4px;
