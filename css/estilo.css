@@ -18,7 +18,46 @@ strong{
     font-weight: 500;
 }
 
+.barra{
+    border: 1px solid red;
+    background-color: #231c52;
+    padding: 5px 40px;
+}
+nav{
+    border: 1px solid rgb(0, 255, 200);
+    display: flex;
+    padding: 10px 0px 0px 0px;
+}
+.logoagus{
+    width: 25px;
+}
+.imgflecha3{
+    width: 30px;
+}
 
+.parte2{
+    border: 1px solid yellow;
+    margin-left: 25px;
+}
+
+.parte3{
+    border: 1px solid green;
+    margin-left: 400px;
+}
+.descargacv{
+    font-size: 13px;
+    color: #f3f0ee;
+    border: 1px solid yellow;
+    margin-top: 5px;
+    margin-left: 55px;
+}
+
+.lineaheader{
+    height: 0.4px;
+    background-color: #f3f0ee;
+    width: 100%;
+    margin-top: 20px;
+}
 .hero{
     background-color: #211f50;
     width: 100%;
