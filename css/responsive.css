@@ -1,0 +1,42 @@
+@media (max-width: 320px){
+    body{
+    padding: 40px 0px 40px 40px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .contenedorfotos{
+        width: 100%;
+        background-color: #211f50;
+    }
+    .contenedor{
+        width: 100%;
+        background-color: #211f50;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+    .contacto{
+        margin-top: 70px;
+    }
+    .frase{
+        font-size: 15px;
+    }
+    .buttonlinkedin{
+        width: 60px;
+        height: 20px;
+    }
+    .foto{
+        width:100px ;
+    }
+
+
+
+
+
+
+
+
+
+
+}
