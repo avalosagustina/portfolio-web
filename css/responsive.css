@@ -1,42 +1,56 @@
-@media (max-width: 320px){
+@media (max-width: 1280px){
+    .imgtp1{
+        left: 640px;
+        top: 130px;
+    }
+    .cajita{
+        top: 250px;
+        left: 750px;
+    }
+}
+@media (max-width: 1024px){
     body{
-    padding: 40px 0px 40px 40px;
-    }
-    .hero{
-        flex-direction: column;
-    }
-    .contenedorfotos{
-        width: 100%;
-        background-color: #211f50;
-    }
-    .contenedor{
-        width: 100%;
-        background-color: #211f50;
-    }
-    .titulo{
-        font-size: 20px;
+        padding: 40px 20px 40px 40px;
     }
     .contacto{
-        margin-top: 70px;
+        margin-top: 250px;
     }
-    .frase{
-        font-size: 15px;
+    .cajita{
+        left: 650px;
     }
-    .buttonlinkedin{
-        width: 60px;
-        height: 20px;
+    .dibujo{
+        margin-left: 100px;
     }
-    .foto{
-        width:100px ;
+    .presentacion2{
+        margin-top: 320px;
     }
-
-
-
-
-
-
-
-
-
-
+    .estudio{
+        font-size: 25px;
+    }
+    .residencia{
+        font-size: 25px;
+    }
+    .imgtp1{
+        top: 150px;
+        left: 515px;
+    }
+    .imgtp2{
+        top: 520px;
+        left: 180px;
+    }
+    .descripciontrabajo2{
+        margin-right: 40px;
+    }
+    .titulotrabajaconmigo{
+        font-size: 25px;
+        width: 600px;
+    }
+    .imgcontratame2{
+        margin-left: 130px;
+    }
+    .enlace{
+        font-size: 10px;
+    }
+    .section{
+    }
 }
