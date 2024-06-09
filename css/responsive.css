@@ -13,22 +13,28 @@
         padding: 40px 20px 40px 40px;
     }
     .contacto{
-        margin-top: 250px;
+        margin-top: 150px;
     }
     .cajita{
         left: 650px;
+    }
+    .foto{
+        width:230px;
     }
     .dibujo{
         margin-left: 100px;
     }
     .presentacion2{
-        margin-top: 320px;
+        margin-top: 170px;
     }
     .estudio{
         font-size: 25px;
     }
     .residencia{
         font-size: 25px;
+    }
+    .volverysiguiente{
+        margin-left: 300px;
     }
     .imgtp1{
         top: 150px;
@@ -48,9 +54,9 @@
     .imgcontratame2{
         margin-left: 130px;
     }
-    .enlace{
-        font-size: 10px;
-    }
-    .section{
+}
+@media(max-width: 768px){
+    body{
+        padding: 40px 0px 40px 40px;
     }
 }

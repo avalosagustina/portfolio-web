@@ -45,6 +45,9 @@ nav{
 }
 
 .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: auto;
     padding: 40px;
@@ -53,8 +56,13 @@ nav{
     width: 50%;
     height: auto;
     padding: 40px 0px;
+    position: relative;
+    
 }
 .contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: auto;
     padding: 40px;
@@ -67,7 +75,7 @@ nav{
 }
 
 .contacto{
-    margin-top: 370px;
+    margin-top: 150px;
 }
 
 .frase{
@@ -117,7 +125,7 @@ nav{
     position: relative;
 }
 .foto{
-    width: 320px;
+    width: 345px;
     height: auto;
 }
 
@@ -126,9 +134,9 @@ nav{
     height: 100px;
     background-color: white;
     position: absolute;
-    top: 200px;
-    left: 800px;
     padding: 15px;
+    top: 17px;
+    left: 242px;
 }
 
 .cajaaño{
@@ -147,14 +155,19 @@ nav{
 }
 
 .presentacion2{
-    margin-top: 350px;
+}
+
+.dibujo-container{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .dibujo{
     width: 180px;
-    margin-left: 200px;
 }
+
 .presentacionhero{
+    width: 100%;
     font-size: 13px;
     color: white;
     margin-bottom: 10px;
@@ -202,7 +215,7 @@ nav{
 
 .lenguajes{
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     padding: 0px 40px;
     justify-content: space-between;
@@ -239,6 +252,7 @@ nav{
 .renglon1{
     display: flex;
     align-items: center;
+    flex-direction: row;
     margin-bottom: 10px;
 }
 .renglon2{
@@ -250,29 +264,43 @@ nav{
     display: flex;
     align-items: center;
 }
+
+.estudios__container{
+    margin-left: 30px;
+    display: flex;
+    width: max-content;
+    justify-content: center;
+}
+
 .estudio{
     font-size: 30px;
     color: #231c52;
-    white-space: nowrap;
 }
 
 .linea1{
-    width: 500px;
+    width: 100%;
     height: 1px;
     background-color: #231c52;
-    margin-left: 10px;
 }
 .linea2{
-    width: 300px;
+    width: 100%;
     height: 1px;
     background-color: #231c52;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .residencia{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 30px;
     color: #231c52;
-    white-space: nowrap;
+}
+
+.spanResidencia{
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .experiencia{
@@ -298,8 +326,9 @@ nav{
 }
 
 .laexperiencia{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    width: 100%;
+    height: 50vh;
 }
 
 .tituloexperiencia{
@@ -326,14 +355,12 @@ nav{
     text-align: center;
 }
 .miexperiencia{
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-top: 30px;
 }
 .miexperiencia2{
-    border: 1px solid red;
-    width: 100%;
-    height: auto;
+    width: 50%;
 }
 .diplomatura{
     font-size: 25px;
@@ -341,7 +368,7 @@ nav{
 }
 .linea3{
     height: 0.4px;
-    width: 600px;
+    width: 100%;
     background-color: #f3f0ee;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -386,15 +413,19 @@ nav{
 }
 
 .cajitacolornude{
-    width: 100%px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 350px;
     background-color: #e5e9ab;
 }
+.cajaimgtp1{
+    border: 1px solid rgb(0, 183, 255);
+    width: 80%;
+}
 .imgtp1{
-    width: 40%;
-    position: absolute;
-    top: 120px;
-    left: 680px;
+    width: 100%;
 }
 
 .cajitacolorverde{
@@ -491,14 +522,19 @@ footer{
 }
 
 .enlaces{
+    width: 100%;
     display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
 }
 .section{
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 .links{
-    margin-top: 30px;
-    margin-left: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .enlace{
     text-decoration: none;
