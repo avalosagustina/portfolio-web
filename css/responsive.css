@@ -1,13 +1,144 @@
-@media (max-width: 1280px){
+@media (max-width: 1920px){
+    .logoagus{
+        width: 30px;
+    }
+    .enlacenav{
+        font-size: 20px;
+    }
+    .imgflecha3{
+        width: 30px;
+    }
+    .descargacv{
+        font-size: 20px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .frase{
+        font-size: 30px;
+    }
+    .buttonlinkedin{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .buttongithub{
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .imglogolinkedin{
+        width: 40px;
+    }
+    .imglogogithub{
+        width: 45px;
+    }
     .foto{
-        width: 230px;
+        width: 390px;
     }
     .cajita{
-        left: 180px;
+        left: 320px;
+    }
+    .presentacionhero{
+        font-size: 18px;
+    }
+    .descarga{
+        font-size: 18px;
+    }
+    .thabilidades{
+        font-size: 40px;
+    }
+    .phabilidades{
+        font-size: 18px;
+    }
+    .nombres{
+        font-size: 30px;
+    }
+    .estudio{
+        font-size: 40px;
+    }
+    .residencia{
+        font-size: 40px;
+    }
+    .imgcontratame{
+        width: 200px;
+    }
+    .acerca{
+        font-size: 18px;
+        justify-content: flex-end;
+    }
+    .tituloexperiencia{
+        font-size: 40px;
+    }
+    .textoexperiencia{
+        font-size: 18px;
+    }
+    .fecha{
+        width: 80px;
+        height: 20px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    .diplomatura{
+        font-size: 35px;
+    }
+    .relatoexperiencia{
+        font-size: 22px;
+    }
+    .volver{
+        font-size: 18px;
+    }
+    .proximo{
+        font-size: 18px;
+    }
+    .titulomistrabajos{
+        font-size: 40px;
+    }
+    .contandotrabajos{
+        font-size: 18px;
+    }
+    
+    .buttongithub2{
+        height: 40px;
+        border-radius: 20px;
+    }
+    .titulotp{
+        font-size: 40px;
+    }
+    .contandotp1{
+        font-size: 18px;
+    }
+    .contandotp2{
+        font-size: 18px;
+    }
+    .cajaimg2{
+        margin-left: 40px;
+    }
+    .ver{
+        font-size: 18px;
+    }
+    .titulotrabajaconmigo{
+        font-size: 40px;
+    }
+    .textotrabajaconmigo{
+        font-size: 18px;
+    }
+    .imgcontratame2{
+        width: 200px;
+    }
+    .enlace{
+        font-size: 18px;
+    }
+    .linkpagina{
+        font-size: 18px;
     }
     .imgtp1{
-        left: 640px;
-        top: 130px;
+        width: 80%;
+        padding: 0px 0px 0px 70px;
+        margin-left: 30px;
+    }
+    .imgtp2{
+        margin-top: 10px;
     }
 }
 @media (max-width: 1024px){
@@ -20,7 +151,6 @@
     .descargacv{
         font-size: 10px;
     }
-
     .titulo{
         font-size: 25px;
     }
@@ -177,111 +307,5 @@
 }
 
 
-@media (max-width: 1920px){
-    .imgtp1{
-        width: 80%;
-        padding: 0px 0px 0px 70px;
-    }
-    .imgtp2{
-        margin-top: 10px;
-    }
-}
 
-@media (max-width: 480px){
-    .parte2{
-        display: none;
-    }
-    .descargacv{
-        display: none;
-    }
-    .contenedor2{
-        display: none;
-    }
-    .cajita{
-        display: none;
-    }
-    .thabilidades{
-        font-size: 25px;
-    }
-    .phabilidades{
-        font-size: 10px;
-    }
-    .estudio{
-        font-size: 20px;
-    }
-    .residencia{
-        font-size: 20px;
-    }
-    .acerca{
-        font-size: 10px;
-    }
-    .tituloexperiencia{
-        font-size: 25px;
-    }
-    .textoexperiencia{
-        font-size: 10px;
-    }
-    .diplomatura{
-        font-size: 20px;
-    }
-    .relatoexperiencia{
-        font-size: 13px;
-    }
-    .volver{
-        font-size: 10px;
-    }
-    .proximo{
-        font-size: 10px;
-    }
-    .volverysiguiente{
-        margin-left: 30px;
-    }
-    .titulomistrabajos{
-        font-size: 20px;
-    }
-    .contandotrabajos{
-        font-size: 10px;
-    }
-    .titulotp{
-        font-size: 20px;
-    }
-    .contandotp1{
-        font-size: 10px;
-    }
-    .contandotp2{
-        font-size: 10px;
-    }
-    
-    .cajitacolorverde{
-        height: 300px;
-        margin-top: 10px;
-    }
-    .cajitacolornude{
-        height: 250px;
-    }
-    .ver{
-        font-size: 10px;
-    }
-    .section{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .links{
-        flex-direction: column;
-    }
-    .vermas{
-        align-items: self-end;
-    }
-    .titulotrabajaconmigo{
-        font-size: 20px;
-    }
-    .textotrabajaconmigo{
-        font-size: 10px;
-    }
-    .enlace{
-        font-size: 10px;
-    }
-    .linkpagina{
-        font-size: 10px;
-    }
-}
+

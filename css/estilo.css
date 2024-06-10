@@ -29,6 +29,9 @@ nav{
     justify-content: flex-start;
     display: inline;
 }
+.logoagus{
+    width: 20px;
+}
 
 .parte2{
     display: flex;
@@ -38,9 +41,17 @@ nav{
     text-decoration: none;
     color: #f3f0ee;
     margin-left: 40px;
+    transition: transform 0.2s;
+}
+.enlacenav:hover{
+    transform: scale(1.1);
 }
 .imgflecha3{
     width: 20px;
+    transition: transform 0.2s;
+}
+.imgflecha3:hover{
+    transform: scale(1.2);
 }
 .descargacv{
     font-size: 15px;
@@ -114,7 +125,15 @@ nav{
     margin-top: 8px;
     margin-right: 3px;
 }
-
+.buttonlinkedin:hover{
+    background-color: #f3f0ee;
+}
+.linkcontacto:hover{
+    color: #231c52;
+}
+.buttongithub:hover{
+    background-color: #f3f0ee;
+}
 
 .buttongithub{
     background-color: #211f50;
@@ -176,8 +195,6 @@ nav{
     font-weight: 600;
 }
 
-.presentacion2{
-}
 
 .dibujo-container{
     display: flex;
@@ -265,6 +282,7 @@ nav{
 .acercademi{
     padding: 0px 40px 40px 40px;
     background-color:#f3f0ee;
+    height: auto;
 }
 .comillas{
     font-size: 50px;
@@ -284,7 +302,7 @@ nav{
 }
 .renglon3{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .estudios__container{
@@ -331,8 +349,9 @@ nav{
 }
 
 .imgcontratame1{
+    display: flex;
+    justify-content: center;
     width: 150px;
-    margin: 0px 80px;
 }
 
 .lunita{
@@ -340,11 +359,13 @@ nav{
     margin-bottom: -5px;
 }
 .acerca{
+    display: flex;
+    justify-content: flex-end;
     font-size: 13px;
     color:#231c52;
-    width: 600px;
-    margin-left: 100px;
     line-height: 1.3;
+    border:1px solid red;
+
 }
 
 .laexperiencia{
@@ -400,20 +421,30 @@ nav{
     color: #f3f0ee;
 }
 .volverysiguiente{
-    margin-left: 450px;
+    display: flex;
+    justify-content: end;
     margin-top: 20px;
-    margin-bottom: 10px;
+    border:1px solid red;
 }
+
 .volver{
     text-decoration: none;
     color: #f3f0ee;
     margin-right: 15px;
     font-size: 13px;
+    transition: transform 0.2s;
+}
+.volver:hover{
+    transform: scale(1.1);
 }
 .proximo{
     text-decoration: none;
     color: #f3f0ee;
     font-size: 13px;
+    transition: transform 0.2s;
+}
+.proximo:hover{
+    transform: scale(1.1);
 }
 .trabajos{
     background-color: #f3f0ee;
@@ -437,14 +468,15 @@ nav{
 .cajitacolornude{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
     height: 350px;
     background-color: #e5e9ab;
 }
 .cajaimgtp{
-    width: 80%;
-    border: 1px solid red;
+    display: flex;
+    margin-right: 50px;
+    width: 100%;
 }
 
 .imgtp1{
@@ -453,7 +485,7 @@ nav{
 
 .cajitacolorverde{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 60%;
     height: auto;
     background-color: #bee99c;
@@ -461,7 +493,9 @@ nav{
     margin-left: 100px;
 }
 .cajaimg2{
+    display: flex;
     width: 80%;
+    margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
     border: 1px solid rgb(0, 255, 55);
@@ -511,8 +545,8 @@ nav{
 }
 .vermas{
     display: flex;
+    align-items: flex-end;
     border: 1px solid red;
-    padding: 200px 0px 0px 30px;
     font-weight: 500;
 }
 .logoflechaazul{
