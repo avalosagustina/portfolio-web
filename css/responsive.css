@@ -78,9 +78,55 @@
     .fotoperfil{
         margin: 5px 40px 5px 5px;
     }
+    .thabilidades{
+        font-size: 25px;
+    }
+    .phabilidades{
+        font-size: 10px;
+    }
+    .estudio{
+        font-size: 20px;
+    }
+    .residencia{
+        font-size: 20px;
+    }
+    .acerca{
+        font-size: 10px;
+    }
+    .tituloexperiencia{
+        font-size: 25px;
+    }
+    .textoexperiencia{
+        font-size: 10px;
+    }
+    .diplomatura{
+        font-size: 20px;
+    }
+    .relatoexperiencia{
+        font-size: 13px;
+    }
+    .volver{
+        font-size: 10px;
+    }
+    .proximo{
+        font-size: 10px;
+    }
     .volverysiguiente{
         margin-left: 30px;
     }
+    .titulomistrabajos{
+        font-size: 20px;
+    }
+    .contandotrabajos{
+        font-size: 10px;
+    }
+    .titulotp{
+        font-size: 20px;
+    }
+    .contandotp{
+        font-size: 10px;
+    }
+    
     .imgtp2{
         left: 165px;
         top: 490px;
