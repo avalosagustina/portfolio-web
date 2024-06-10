@@ -28,7 +28,21 @@ nav{
     display: flex
     padding: 10px 0px 0px 0px;
 }
-
+.parte1{
+    display: inline;
+}
+.parte2{
+    display: inline;
+}
+.lineavertical{
+    display: inline;
+}
+.parte3{
+    display: inline;
+}
+.parte4{
+    display: inline;
+}
 
 .lineaheader{
     height: 0.4px;
@@ -125,7 +139,7 @@ nav{
     position: relative;
 }
 .foto{
-    width: 345px;
+    width: 330px;
     height: auto;
 }
 
@@ -420,10 +434,11 @@ nav{
     height: 350px;
     background-color: #e5e9ab;
 }
-.cajaimgtp1{
-    border: 1px solid rgb(0, 183, 255);
+.cajaimgtp{
     width: 80%;
+    border: 1px solid red;
 }
+
 .imgtp1{
     width: 100%;
 }
@@ -491,6 +506,7 @@ footer{
 
 .trabajaconmigo{
     display: flex;
+    justify-content: space-between;
 }
 .parrafotrabajaconmigo{
     display: inline;
@@ -510,10 +526,8 @@ footer{
     color:#f3f0ee;
 }
 .imgcontratame2{
-    width: 150px;
-    margin-left: 450px;
-    margin-top: 30px;
-}
+    width: 150px;}
+    
 .linea4{
     height: 0.4px;
     width: 100%;
