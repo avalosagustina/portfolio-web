@@ -9,9 +9,7 @@
     }
 }
 @media (max-width: 1024px){
-    body{
-        padding: 40px 20px 40px 40px;
-    }
+
     .titulo{
         font-size: 25px;
     }
@@ -56,9 +54,38 @@
     }
     .titulotrabajaconmigo{
         font-size: 25px;
-        width: 600px;
     }
-    .imgcontratame2{
-        margin-left: 130px;
+}
+@media (max-width: 768px){
+    .contenedor2{
+        display: none;
+    }
+    .cajita{
+        display: none;
+    }
+    .volverysiguiente{
+        margin-left: 30px;
+    }
+    .imgtp2{
+        left: 165px;
+        top: 490px;
+    }
+    .cajitacolorverde{
+        height: 300px;
+        margin-top: 10px;
+    }
+    .cajitacolornude{
+        height: 250px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .enlace{
+       
+    }
+    .links{
+        flex-direction: column;
     }
 }
