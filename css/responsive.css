@@ -1,4 +1,10 @@
 @media (max-width: 1280px){
+    .foto{
+        width: 230px;
+    }
+    .cajita{
+        top: 300px;
+    }
     .imgtp1{
         left: 640px;
         top: 130px;
@@ -57,11 +63,20 @@
     }
 }
 @media (max-width: 768px){
+    .parte2{
+        display: none;
+    }
+    .descargacv{
+        display: none;
+    }
     .contenedor2{
         display: none;
     }
     .cajita{
         display: none;
+    }
+    .fotoperfil{
+        margin: 5px 40px 5px 5px;
     }
     .volverysiguiente{
         margin-left: 30px;
@@ -78,14 +93,13 @@
         height: 250px;
     }
     .section{
-        display: flex;
         flex-direction: column;
-        border: 1px solid red;
-    }
-    .enlace{
-       
+        align-items: flex-start;
     }
     .links{
         flex-direction: column;
+    }
+    .vermas{
+        align-items: self-end;
     }
 }

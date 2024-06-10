@@ -14,35 +14,43 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
 }
-strong{
-    font-weight: 500;
-}
 
 .barra{
-    border: 1px solid red;
     background-color: #231c52;
     padding: 5px 40px;
 }
 nav{
-    border: 1px solid rgb(0, 255, 200);
-    display: flex
+    display: flex;
+    justify-content: space-between;
     padding: 10px 0px 0px 0px;
 }
 .parte1{
+    display: flex;
+    justify-content: flex-start;
     display: inline;
 }
+
 .parte2{
-    display: inline;
+    display: flex;
 }
-.lineavertical{
-    display: inline;
+.enlacenav{
+    font-size: 15px;
+    text-decoration: none;
+    color: #f3f0ee;
+    margin-left: 40px;
 }
+.imgflecha3{
+    width: 20px;
+}
+.descargacv{
+    font-size: 15px;
+    color: #f3f0ee;
+}
+
 .parte3{
-    display: inline;
+    display: flex;
 }
-.parte4{
-    display: inline;
-}
+
 
 .lineaheader{
     height: 0.4px;
@@ -149,7 +157,7 @@ nav{
     background-color: white;
     position: absolute;
     padding: 15px;
-    top: 17px;
+    top: 100px;
     left: 242px;
 }
 
@@ -502,6 +510,7 @@ nav{
 footer{
     padding: 40px;
     background-color: #231c52;
+    
 }
 
 .trabajaconmigo{
