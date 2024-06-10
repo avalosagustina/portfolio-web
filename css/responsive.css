@@ -11,6 +11,15 @@
     }
 }
 @media (max-width: 1024px){
+    .enlacenav{
+        font-size: 10px;
+    }
+    .imgflecha3{
+        width: 15px;
+    }
+    .descargacv{
+        font-size: 10px;
+    }
 
     .titulo{
         font-size: 25px;
@@ -50,6 +59,9 @@
     .imgtp2{
         top: 520px;
         left: 180px;
+    }
+    .contandotp2{
+        margin-right: 40px;
     }
     .descripciontrabajo2{
         margin-right: 40px;
@@ -119,7 +131,10 @@
     .titulotp{
         font-size: 20px;
     }
-    .contandotp{
+    .contandotp1{
+        font-size: 10px;
+    }
+    .contandotp2{
         font-size: 10px;
     }
     
@@ -127,6 +142,116 @@
         left: 165px;
         top: 410px;
     }
+    .cajitacolorverde{
+        height: 300px;
+        margin-top: 10px;
+    }
+    .cajitacolornude{
+        height: 250px;
+    }
+    .ver{
+        font-size: 10px;
+    }
+    .section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .vermas{
+        align-items: self-end;
+    }
+    .titulotrabajaconmigo{
+        font-size: 20px;
+    }
+    .textotrabajaconmigo{
+        font-size: 10px;
+    }
+    .enlace{
+        font-size: 10px;
+    }
+    .linkpagina{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 1920px){
+    .imgtp1{
+        width: 80%;
+        padding: 0px 0px 0px 70px;
+    }
+    .imgtp2{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    .parte2{
+        display: none;
+    }
+    .descargacv{
+        display: none;
+    }
+    .contenedor2{
+        display: none;
+    }
+    .cajita{
+        display: none;
+    }
+    .thabilidades{
+        font-size: 25px;
+    }
+    .phabilidades{
+        font-size: 10px;
+    }
+    .estudio{
+        font-size: 20px;
+    }
+    .residencia{
+        font-size: 20px;
+    }
+    .acerca{
+        font-size: 10px;
+    }
+    .tituloexperiencia{
+        font-size: 25px;
+    }
+    .textoexperiencia{
+        font-size: 10px;
+    }
+    .diplomatura{
+        font-size: 20px;
+    }
+    .relatoexperiencia{
+        font-size: 13px;
+    }
+    .volver{
+        font-size: 10px;
+    }
+    .proximo{
+        font-size: 10px;
+    }
+    .volverysiguiente{
+        margin-left: 30px;
+    }
+    .titulomistrabajos{
+        font-size: 20px;
+    }
+    .contandotrabajos{
+        font-size: 10px;
+    }
+    .titulotp{
+        font-size: 20px;
+    }
+    .contandotp1{
+        font-size: 10px;
+    }
+    .contandotp2{
+        font-size: 10px;
+    }
+    
     .cajitacolorverde{
         height: 300px;
         margin-top: 10px;
