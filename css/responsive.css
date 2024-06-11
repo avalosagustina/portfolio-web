@@ -469,12 +469,9 @@
         height: auto;
     }
     .fotoperfil{
-        width: 100%;
+        width: 50%;
         height: auto;
-        justify-content: center;
-    }
-    .fotoperfilagus{
-        width: 70%;
+        margin-left: 120px;
     }
     .contenedor2{
         display: none;
@@ -664,12 +661,9 @@
             height: auto;
         }
         .fotoperfil{
-            width: 100%;
+            width: 50%;
             height: auto;
-            justify-content: center;
-        }
-        .fotoperfilagus{
-            width: 80%;
+            margin-left: 70px;
         }
         .contenedor2{
             display: none;
