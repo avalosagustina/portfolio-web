@@ -77,9 +77,6 @@ nav{
 }
 
 .contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 100%;
     height: auto;
     padding: 40px;
@@ -107,7 +104,7 @@ nav{
 }
 
 .contacto{
-    margin-top: 150px;
+    margin-top: 320px;
 }
 
 .frase{
@@ -161,15 +158,14 @@ nav{
 
 .fotoperfil{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 100%;
     position: relative;
-    background-image: url(../img/fotodeperfil.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
+.fotoperfilagus{
+    width: 100%;
+}
+
 
 .cajita{
     width: 100px;
@@ -178,7 +174,7 @@ nav{
     position: absolute;
     padding: 15px;
     top: 100px;
-    left: 150px;
+    left: 270px;
 }
 
 .cajaaño{
@@ -350,8 +346,6 @@ nav{
 }
 
 .imgcontratame1{
-    display: flex;
-    justify-content: center;
     width: 150px;
 }
 
@@ -360,7 +354,6 @@ nav{
     margin-bottom: -5px;
 }
 .acerca{
-    display: flex;
     font-size: 13px;
     color:#231c52;
     line-height: 1.3;
@@ -472,6 +465,7 @@ nav{
 .imgtp2{
     border: 1px solid green;
     width: 60%;
+    margin-left: 100px;
 }
 .buttongithub2{
     background-color:#f3f0ee;

@@ -1,4 +1,4 @@
-@media (max-width: 1920px){
+@media (min-width: 1441px) and (max-width: 1920px){
     .logoagus{
         width: 30px;
     }
@@ -33,11 +33,9 @@
     .imglogogithub{
         width: 45px;
     }
-    .contenedorfotos{
-        width: 50%;
-    }
+    
     .cajita{
-        left: 320px;
+        left: 400px;
     }
     .presentacionhero{
         font-size: 18px;
@@ -139,134 +137,15 @@
         margin-left: 200px;
     }
 }
-@media (max-width: 1280px){
-    .enlacenav{
-        font-size: 15px;
-    }
-    .logoagus{
-        width: 20px;
-    }
-    .descargacv{
-        font-size: 15px;
-    }
-    .imgflecha3{
-        width: 20px;
-    }
-    .contenedorfotos{
-        width: 80%;
-    }
-    .fotoperfil{
-        height: 400px;
-    }
-    .titulo{
-        font-size: 35px;
-    }
-    .frase{
-        font-size: 25px;
-    }
-    .cajita{
-        left: 240px;
-    }
-    .presentacionhero{
-        font-size: 13px;
-    }
-    .descarga{
-        font-size: 15px;
-    }
-    .logoflecha{
-        width: 20px;
-    }
-    .thabilidades{
-        font-size: 30px;
-    }
-    .phabilidades{
-        font-size: 13px;
-    }
-    .nombres{
-        font-size: 20px;
-    }
-    .estudio{
-        font-size: 30px;
-    }
-    .residencia{
-        font-size: 30px;
-    }
-    .acerca{
-        font-size: 13px;
-    }
-    .tituloexperiencia{
-        font-size: 30px;
-    }
-    .lunita{
-        margin-left: 200px;
-    }
-    .fecha{
-        width: 60px;
-        height: 10px;
-        font-size: 12px;
-    }
-    .textoexperiencia{
-        font-size: 13px;
-    }
-    .diplomatura{
-        font-size: 25px;
-    }
-    .relatoexperiencia{
-        font-size: 18px;
-    }
-    .volver{
-        font-size: 13px;
-    }
-    .proximo{
-        font-size: 13px;
-    }
-    .titulomistrabajos{
-        font-size: 30px;
-    }
-    .contandotrabajos{
-        font-size: 13px;
-    }
-    .imgtp2{
-        margin-left: 70px;
-    }
-    .buttongithub2{
-        height: 30px;
-        border-radius: 15px;
-    }
-    .titulotp{
-        font-size: 30px;
-    }
-    .contandotp1{
-        font-size: 13px;
-    }
-    .descripciontrabajo2{
-        margin-left: 70px;
-    }
-    .contandotp2{
-        font-size: 13px;
-    }
-    .ver{
-        font-size: 15px;
-    }
-    .titulotrabajaconmigo{
-        font-size: 30px;
-    }
-    .textotrabajaconmigo{
-        font-size: 13px;
-    }
-    .imgcontratame2{
-        width: 150px;
-    }
-    .enlace{
-        font-size: 13px;
-    }
-    .linkpagina{
-        font-size: 13px;
-    }
+@media(min-width: 1281px) and (max-width:1440px){
+
 }
 
+@media(min-width: 1025px) and (max-width:1280px){
+   /*NO ME PARECE LO DE CONTACTO*/
+}
 
-@media (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
     .enlacenav{
         font-size: 10px;
     }
@@ -302,10 +181,13 @@
         margin-top: 200px;
     }
     .cajita{
-        left: 200px;
+        width: 80px;
+        height: 80px;
+        left: 190px;
         top: 80px;
     }
     .dibujo{
+        width: 140px;
         margin-left: 100px;
     }
     .presentacion2{
@@ -314,8 +196,8 @@
     .contenedorfotos{
         width: 100%;
     }
-    .fotoperfil{
-        height: 400px;
+    .fotoperfilagus{
+        width: 150%;
     }
     .presentacionhero{
         font-size: 10px;
@@ -413,7 +295,8 @@
         font-size: 13px;
     }
 }
-@media (max-width: 768px){
+@media (min-width:481px) and (max-width: 768px){
+    /*NO ME APARECE L DE CONTACTO*/
     .parte2{
         display: none;
     }
@@ -425,6 +308,9 @@
     }
     .cajita{
         display: none;
+    }
+    .fotoperfilagus{
+        width: 100%;
     }
     .contenedorfotos{
         width:80%;
@@ -441,6 +327,7 @@
     .phabilidades{
         font-size: 10px;
     }
+    
     .estudio{
         font-size: 20px;
     }
@@ -452,6 +339,9 @@
     }
     .tituloexperiencia{
         font-size: 25px;
+    }
+    .lunita{
+        margin-left: 160px;
     }
     .textoexperiencia{
         font-size: 10px;
@@ -480,11 +370,16 @@
     .titulotp{
         font-size: 20px;
     }
+    .imgtp2{
+        margin-left: 15px;
+    }
     .contandotp1{
         font-size: 10px;
     }
     .contandotp2{
         font-size: 10px;
+        /*NO PUEDO PONER EN LA MISMA LINEA EL PARRAFO*/
+        width: 100%;
     }
     .ver{
         font-size: 10px;
@@ -515,11 +410,406 @@
         width: 100px;
     }
 }
-@media (max-width 480px){
-    .contenedorfotos{
+@media (min-width:321px) and (max-width: 480px){
+    body{
+        padding: 20px;
+    }
+    .parte2{
         display: none;
     }
-}
+    .descargacv{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        height: auto;
+    }
+    .contenedor{
+    width: 80%;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .contacto{
+        margin-top: 60px;
+    }
+    .frase{
+        font-size: 18px;
+    }
+    .contenedor{
+        height: auto;
+    }
+    .fotoperfil{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .fotoperfilagus{
+        width: 70%;
+    }
+    .contenedor2{
+        display: none;
+    }
+    .cajita{
+        display: none;
+    }
+    .thabilidades{
+        font-size: 18px;
+    }
+    .phabilidades{
+        font-size: 10px;
+    }
+    .lenguajes{
+        margin-left: 0px;
+    }
+    .habilidad{
+        padding-bottom: 5px;
+    }
+    .estudio{
+        font-size: 20px;
+    }
+    .residencia{
+        font-size: 20px;
+    }
+    .renglon3{
+        flex-direction: column-reverse;
+    }
+    .acerca{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .imgcontratame{
+        width: 100px;
+    }
+    .laexperiencia{
+        flex-direction: column;
+        height: auto;
+    }
+    .tituloexperiencia{
+        font-size: 20px;
+    }
+    .lunita{
+        width: 30px;
+        margin-left: 120px;
+    }
+    .textoexperiencia{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .fecha{
+        width: 40px;
+        height: 5px;
+        font-size: 8px;
+    }
+    .diplomatura{
+        font-size: 20px;
+    }
+    .relatoexperiencia{
+        font-size: 13px;
+    }
+    .volverysiguiente{
+        justify-content: flex-start;
+    }
+    .volver{
+        font-size: 10px;
+    }
+    .proximo{
+        font-size: 10px;
+    }
+    .trabajos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+    .trabajos > div:nth-child(4){
+        grid-row: 3;
+    }
+    .titulomistrabajos{
+        font-size: 20px;
+    }
+    .contandotrabajos{
+        font-size: 10px;
+        margin: 10px 0px;
+    }
+    .imgtp1{
+        width: 60%;
+    }
+    .buttongithub2{
+        height: 20px;
+    }
+    .linkcontacto2{
+        font-size: 12px;
+    }
+    .titulotp{
+        font-size: 20px;
+    }
+    .contandotp1{
+        font-size: 10px;
+        margin:10px 0px;
+    }
+    .imgtp2{
+        margin-left: 0px;
+    }
+    .contandotp2{
+        font-size: 10px;
+    }
+    .descripciontrabajo2{
+        margin-left: 0px;
+        margin: 10px 0px;
+    }
+    .ver{
+        font-size: 10px;
+    }
+    .logoflechaazul{
+        width: 15px;
+    }
+    .titulotrabajaconmigo{
+        font-size: 20px;
+    }
+    .parrafotrabajaconmigo{
+        font-size: 10px;
+    }
+    .imgcontratame2{
+        width: 100px;
+    }
+    .section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .enlace{
+        font-size: 10px;
+    }
+    .linkpagina{
+        font-size: 10px;
+    }
+    }
+    @media(min-width: 1px) and (max-width:320px){
+        body{
+            padding: 20px;
+        }
+        .parte2{
+            display: none;
+        }
+        .descargacv{
+            display: none;
+        }
+        .hero{
+            flex-direction: column;
+            height: auto;
+        }
+        .contenedor{
+            width: 60%;
+        }
+        .titulo{
+            font-size: 18px;
+        }
+        .contacto{
+            margin-top: 60px;
+        }
+        .buttonlinkedin{
+            width: 60px;
+            height: 25px;
+        }
+        .linkcontacto{
+            font-size: 12px;
+        }
+        .buttongithub{
+            width: 55px;
+            height: 25px;
+        }
+        .imglogolinkedin{
+            width: 25px;
+        }
+        .imglogogithub{
+            width: 30px;
+        }
+        .frase{
+            font-size: 13px;
+        }
+        .contenedor{
+            height: auto;
+        }
+        .fotoperfil{
+            width: 100%;
+            height: auto;
+            justify-content: center;
+        }
+        .fotoperfilagus{
+            width: 80%;
+        }
+        .contenedor2{
+            display: none;
+        }
+        .cajita{
+            display: none;
+        }
+        .habilidades{
+            display: grid;
+            grid-template-columns: 1fr; 
+            grid-auto-rows: auto;
+        }
+        .thabilidades{
+            font-size: 18px;
+        }
+        .phabilidades{
+            font-size: 10px;
+        }
+        .habilidad{
+            padding-bottom: 5px;
+        }
+        .lenguajes{
+            margin-left: 0px;
+            padding: 0px;
+        }
+        .estudio{
+            font-size: 15px;
+        }
+        .residencia{
+            font-size: 15px;
+        }
+        .renglon3{
+            flex-direction: column-reverse;
+        }
+        .acerca{
+            font-size: 10px;
+            margin-left: 0px;
+        }
+        .imgcontratame{
+            width: 50px;
+        }
+        .miexperiencia{
+            padding: 0px;
+        }
+        .laexperiencia{
+            flex-direction: column;
+            height: auto;
+        }
+        .miexperiencia{
+            width: 130%;
+        }
+        .tituloexperiencia{
+            font-size: 20px;
+        }
+        .lunita{
+            width: 30px;
+            margin-left: 120px;
+        }
+        .textoexperiencia{
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        .miexperiencia2{
+            width: 100%;
+        }
+        .fecha{
+            width: 40px;
+            height: 5px;
+            font-size: 8px;
+        }
+        .diplomatura{
+            font-size: 20px;
+        }
+        .relatoexperiencia{
+            font-size: 13px;
+        }
+        .volverysiguiente{
+            justify-content: flex-start;
+        }
+        .volver{
+            font-size: 10px;
+        }
+        .proximo{
+            font-size: 10px;
+        }
+        .trabajos{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, auto);
+        }
+        .trabajos > div:nth-child(4){
+            grid-row: 3;
+        }
+        .titulomistrabajos{
+            font-size: 20px;
+        }
+        .contandotrabajos{
+            font-size: 10px;
+            margin: 10px 0px;
+        }
+        .imgtp1{
+            width: 80%;
+        }
+        .buttongithub2{
+            height: 20px;
+        }
+        .linkcontacto2{
+            font-size: 12px;
+        }
+        .titulotp{
+            font-size: 20px;
+        }
+        .contandotp1{
+            font-size: 10px;
+            margin:10px 0px;
+        }
+        .imgtp2{
+            margin-left: 0px;
+        }
+        .contandotp2{
+            font-size: 10px;
+            width: 100%;
+        }
+        .descripciontrabajo2{
+            margin-left: 0px;
+            margin: 10px 0px;
+        }
+        .ver{
+            font-size: 10px;
+        }
+        .logoflechaazul{
+            width: 15px;
+        }
+        .trabajaconmigo{
+            height: auto;
+        }
+        .titulotrabajaconmigo{
+            font-size: 20px;
+        }
+        .parrafotrabajaconmigo{
+            width: 100%;
+        }
+        .textotrabajaconmigo{
+            font-size: 10px;
+        }
+        .imgcontratame2{
+            width: 70px;
+        }
+        .section{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .links{
+            flex-direction: column;
+        }
+        .enlace{
+            font-size: 7px;
+        }
+        .linkpagina{
+            font-size: 7px;
+        }
+    }
+        
+
+
+
+
+
+
+    
+
 
 
 
