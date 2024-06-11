@@ -207,7 +207,6 @@ nav{
     font-size: 13px;
     color: white;
     margin-bottom: 10px;
-    border: 1px solid red;
 }
 .linkcv{
     text-decoration: none;
@@ -246,7 +245,6 @@ nav{
 .phabilidades{
     font-size: 13px;
     color: #231c52;
-    border: 1px solid red;
 }
 
 .lenguajes{
@@ -357,7 +355,6 @@ nav{
     font-size: 13px;
     color:#231c52;
     line-height: 1.3;
-    border:1px solid red;
     margin-left: 100px;
 }
 
@@ -417,7 +414,6 @@ nav{
     display: flex;
     justify-content: end;
     margin-top: 20px;
-    border:1px solid red;
 }
 
 .volver{
@@ -454,16 +450,13 @@ nav{
 .contandotrabajos{
     font-size: 13px;
     color: #231c52;
-    border: 1px solid red;
     margin-right: 140px;
 }
 .imgtp1{
-    border: 1px solid rgb(255, 0, 200);
     width: 100%;
 }
 
 .imgtp2{
-    border: 1px solid green;
     width: 60%;
     margin-left: 100px;
 }
@@ -494,7 +487,6 @@ nav{
 .contandotp1{
     color: #231c52;
     font-size: 13px;
-    border:1px solid red;
 }
 .contandotp2{
     color: #231c52;
@@ -515,7 +507,6 @@ nav{
 .vermas{
     display: flex;
     align-items: flex-end;
-    border: 1px solid red;
     font-weight: 500;
 }
 .logoflechaazul{
