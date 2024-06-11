@@ -100,7 +100,6 @@ nav{
     font-size: 35px;
     color: white;
     justify-content: left;
-    ;
 }
 
 .contacto{
@@ -160,10 +159,11 @@ nav{
     display: flex;
     width: 80%;
     height: 100%;
-    position: relative;
+    
 }
 .fotoperfilagus{
     width: 100%;
+    position: relative;
 }
 
 
