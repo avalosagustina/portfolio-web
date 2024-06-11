@@ -33,8 +33,8 @@
     .imglogogithub{
         width: 45px;
     }
-    .foto{
-        width: 390px;
+    .contenedorfotos{
+        width: 50%;
     }
     .cajita{
         left: 320px;
@@ -69,6 +69,9 @@
     }
     .tituloexperiencia{
         font-size: 40px;
+    }
+    .lunita{
+        margin-left: 280px;
     }
     .textoexperiencia{
         font-size: 18px;
@@ -129,38 +132,138 @@
     .linkpagina{
         font-size: 18px;
     }
-    .imgtp1{
-        width: 80%;
-        padding: 0px 0px 0px 70px;
-        margin-left: 30px;
-    }
     .imgtp2{
-        margin-top: 10px;
+        margin-left: 200px;
+    }
+    .descripciontrabajo2{
+        margin-left: 200px;
     }
 }
 @media (max-width: 1280px){
-    
-
-
-
-
-
+    .enlacenav{
+        font-size: 15px;
+    }
+    .logoagus{
+        width: 20px;
+    }
+    .descargacv{
+        font-size: 15px;
+    }
+    .imgflecha3{
+        width: 20px;
+    }
+    .contenedorfotos{
+        width: 80%;
+    }
+    .fotoperfil{
+        height: 400px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .frase{
+        font-size: 25px;
+    }
+    .cajita{
+        left: 240px;
+    }
+    .presentacionhero{
+        font-size: 13px;
+    }
+    .descarga{
+        font-size: 15px;
+    }
+    .logoflecha{
+        width: 20px;
+    }
+    .thabilidades{
+        font-size: 30px;
+    }
+    .phabilidades{
+        font-size: 13px;
+    }
+    .nombres{
+        font-size: 20px;
+    }
+    .estudio{
+        font-size: 30px;
+    }
+    .residencia{
+        font-size: 30px;
+    }
+    .acerca{
+        font-size: 13px;
+    }
+    .tituloexperiencia{
+        font-size: 30px;
+    }
+    .lunita{
+        margin-left: 200px;
+    }
+    .fecha{
+        width: 60px;
+        height: 10px;
+        font-size: 12px;
+    }
+    .textoexperiencia{
+        font-size: 13px;
+    }
+    .diplomatura{
+        font-size: 25px;
+    }
+    .relatoexperiencia{
+        font-size: 18px;
+    }
+    .volver{
+        font-size: 13px;
+    }
+    .proximo{
+        font-size: 13px;
+    }
+    .titulomistrabajos{
+        font-size: 30px;
+    }
+    .contandotrabajos{
+        font-size: 13px;
+    }
+    .imgtp2{
+        margin-left: 70px;
+    }
+    .buttongithub2{
+        height: 30px;
+        border-radius: 15px;
+    }
+    .titulotp{
+        font-size: 30px;
+    }
+    .contandotp1{
+        font-size: 13px;
+    }
+    .descripciontrabajo2{
+        margin-left: 70px;
+    }
+    .contandotp2{
+        font-size: 13px;
+    }
+    .ver{
+        font-size: 15px;
+    }
+    .titulotrabajaconmigo{
+        font-size: 30px;
+    }
+    .textotrabajaconmigo{
+        font-size: 13px;
+    }
+    .imgcontratame2{
+        width: 150px;
+    }
+    .enlace{
+        font-size: 13px;
+    }
+    .linkpagina{
+        font-size: 13px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 1024px){
@@ -202,14 +305,17 @@
         left: 200px;
         top: 80px;
     }
-    .foto{
-        width:230px;
-    }
     .dibujo{
         margin-left: 100px;
     }
     .presentacion2{
         margin-top: 170px;
+    }
+    .contenedorfotos{
+        width: 100%;
+    }
+    .fotoperfil{
+        height: 400px;
     }
     .presentacionhero{
         font-size: 10px;
@@ -238,6 +344,9 @@
     .tituloexperiencia{
         font-size: 25px;
     }
+    .lunita{
+        margin-left: 150px;
+    }
     .textoexperiencia{
         font-size: 13px;
     }
@@ -262,26 +371,46 @@
     .contandotrabajos{
         font-size: 13px;
     }
-    .imgtp1{
-        width: 100%;
-        margin-right: 100px;
-    }
     .imgtp2{
-        top: 520px;
-        left: 180px;
+        margin-left: 40px;
     }
     .contandotp1{
         font-size: 13px;
     }
 
     .contandotp2{
-        
+        font-size: 13px;
     }
     .descripciontrabajo2{
-        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .ver{
+        font-size: 15px;
+    }
+    .logoflrchaazul{
+        width: 20px;
+    }
+    .buttongithub2{
+        border-radius: 20px;
+        height: 20px;
+    }
+    .linkcontacto2{
+        font-size: 12px;
     }
     .titulotrabajaconmigo{
         font-size: 25px;
+    }
+    .textotrabajaconmigo{
+        font-size: 13px;
+    }
+    .imgcontratame2{
+        width: 150px;
+    }
+    .enlace{
+        font-size: 13px;
+    }
+    .linkpagina{
+        font-size: 13px;
     }
 }
 @media (max-width: 768px){
@@ -297,8 +426,14 @@
     .cajita{
         display: none;
     }
-    .fotoperfil{
-        margin: 5px 40px 5px 5px;
+    .contenedorfotos{
+        width:80%;
+        padding-right: 40px;
+    }
+    .buttonlinkedin{
+        width: 80px;
+        height: 25px;
+        border-radius: 20px;
     }
     .thabilidades{
         font-size: 25px;
@@ -351,12 +486,6 @@
     .contandotp2{
         font-size: 10px;
     }
-    
-    
-    .imgtp2{
-        left: 165px;
-        top: 410px;
-    }
     .ver{
         font-size: 10px;
     }
@@ -384,6 +513,11 @@
     }
     .imgcontratame2{
         width: 100px;
+    }
+}
+@media (max-width 480px){
+    .contenedorfotos{
+        display: none;
     }
 }
 
